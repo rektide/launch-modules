@@ -1,0 +1,21 @@
+{
+	"name": "launch-modules",
+	"version": "1.0.0",
+	"description": "Launch an array of modules",
+	"main": "launch-modules.js",
+	"scripts": {
+		"example": "./launch-modules.js ./.example/echo.js ./.example/hello ./.example",
+		"test": "npm run example && echo example run succeeded!"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://archive.voodoowarez.com/launch-modules"
+	},
+	"keywords": [],
+	"author": "rektide de la faye",
+	"license": "X11",
+	"dependencies": {
+		"caller": "^1.0.1",
+		"resolve": "^1.2.0"
+	}
+}
